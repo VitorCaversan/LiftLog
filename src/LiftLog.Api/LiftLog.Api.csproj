@@ -10,4 +10,9 @@
     <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.13" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LiftLog.Application\LiftLog.Application.csproj" />
+    <ProjectReference Include="..\LiftLog.Infrastructure\LiftLog.Infrastructure.csproj" />
+  </ItemGroup>
+
 </Project>

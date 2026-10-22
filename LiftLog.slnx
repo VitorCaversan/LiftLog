@@ -1,7 +1,15 @@
 <Solution>
-  <Folder Name="/src/">
-    <Project Path="src/LiftLog.Domain/LiftLog.Domain.csproj" />
-    <Project Path="src/LiftLog.Api/LiftLog.Api.csproj" />
+  <Folder Name="/Solution Items/">
+    <File Path="docker-compose.yml" />
   </Folder>
-  <Folder Name="/tests/" />
+  <Folder Name="/src/">
+    <Project Path="src/LiftLog.Api/LiftLog.Api.csproj" />
+    <Project Path="src/LiftLog.Application/LiftLog.Application.csproj" Id="2e1e63af-bb98-47f6-946b-ea5f25522094" />
+    <Project Path="src/LiftLog.Domain/LiftLog.Domain.csproj" />
+    <Project Path="src/LiftLog.Infrastructure/LiftLog.Infrastructure.csproj" Id="5e7eb38e-5299-4bb6-aeb4-7c023e5e4764" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/LiftLog.IntegrationTests/LiftLog.IntegrationTests.csproj" Id="a5f7825b-4a3f-4964-93ea-ff0c092a420d" />
+    <Project Path="tests/LiftLog.UnitTests/LiftLog.UnitTests.csproj" Id="fd315f05-951f-4960-8022-d80a5c9f09a4" />
+  </Folder>
 </Solution>
